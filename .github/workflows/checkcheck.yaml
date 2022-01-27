@@ -9,5 +9,6 @@ jobs:
     name: My check check
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Done
       run: exit 0;

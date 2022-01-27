@@ -9,6 +9,7 @@ jobs:
     name: My check 1
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Sleep for 30 seconds
       uses: jakejarvis/wait-action@master
       with:
@@ -20,6 +21,7 @@ jobs:
     name: My check 2
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Sleep for 10 seconds
       uses: jakejarvis/wait-action@master
       with:
