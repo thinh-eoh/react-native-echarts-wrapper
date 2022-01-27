@@ -27,7 +27,7 @@ jobs:
     - name: End job
       run: exit 1;
     - name: Restart if failed
-      if: github.event_name == 'push' && failure()
+      if: failure()
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.PAT }}
