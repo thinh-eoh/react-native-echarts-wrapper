@@ -1,0 +1,13 @@
+name: Check check
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  checkcheck:
+    name: My check check
+    runs-on: ubuntu-latest
+    steps:
+    - name: Done
+      run: exit 0;

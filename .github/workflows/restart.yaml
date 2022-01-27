@@ -5,6 +5,7 @@ on:
 
 jobs:
   restart:
+    name: Restart
     runs-on: ubuntu-latest
     steps:
       - name: restart workflow
