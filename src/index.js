@@ -169,6 +169,7 @@ class ECharts extends Component {
           scrollEnabled={false}
           source={source}
           onMessage={this.onMessage}
+          androidLayerType="hardware"
           allowFileAccess
           allowUniversalAccessFromFileURLs
           mixedContentMode="always"
